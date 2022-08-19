@@ -1,6 +1,8 @@
+using IdentityServer4.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -32,9 +34,12 @@ namespace Identity.Web
                 .AddCookie("cookie")
                 .AddOpenIdConnect("oidc", options => {
                     options.Authority = "https://localhost:5001/";
-                    options.ClientId = "765a10ef-8e67-443c-8727-50bdfdbf3b1b";
+                    //options.ClientId = "765a10ef-8e67-443c-8727-50bdfdbf3b1b";
+                    options.ClientId = "interactive";
+                    options.ClientSecret= "49C1A7E1-0C79-4A89-A3D6-A37998FB86B0";
                     options.SignInScheme = "cookie";
                 });
+          
             services.AddControllersWithViews();
         }
 
