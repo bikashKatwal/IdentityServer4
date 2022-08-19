@@ -45,4 +45,3 @@ C:\Personal\Tutorials\Identity.Quick\Identity.Web\obj\Debug\netcoreapp3.1\Identi
 C:\Personal\Tutorials\Identity.Quick\Identity.Web\obj\Debug\netcoreapp3.1\Identity.Web.dll
 C:\Personal\Tutorials\Identity.Quick\Identity.Web\obj\Debug\netcoreapp3.1\Identity.Web.pdb
 C:\Personal\Tutorials\Identity.Quick\Identity.Web\obj\Debug\netcoreapp3.1\Identity.Web.genruntimeconfig.cache
-C:\Personal\Tutorials\Identity.Quick\Identity.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
